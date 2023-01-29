@@ -1,0 +1,45 @@
+.board-space {
+  width: 75px;
+  height: 75px;
+}
+
+.light {
+  background-color: tan;
+}
+
+.dark {
+  background-color: rgb(64, 49, 49);
+}
+
+#board-row {
+  display: flex;
+  flex-direction: row;
+}
+
+#chess-board {
+  margin-left: calc(49vw - 300px);
+  padding: 7.8vh 3vw 7.8vh 1.5vw;
+  display: inline-block;
+  background-color: rgb(205, 240, 251);
+  border-radius: 20px;
+}
+
+.row-label {
+  margin-right: 1vw;
+  margin-top: 4vh;
+}
+
+.col-labels {
+  margin-left: 1.5vw;
+  margin-top: 1vh;
+}
+
+.col-labels > span {
+  margin: 0 2.2vw;
+}
+
+body {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
